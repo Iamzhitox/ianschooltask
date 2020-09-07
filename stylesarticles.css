@@ -1,0 +1,297 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: 0 .5rem 2rem black;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .all {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .all {
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+}
+
+
+.todo {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+@media (min-width: 768px) {
+    .todo {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .todo {
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+}
+
+
+/*Fondos*/
+
+.adm {
+    background: -webkit-linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    background: linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+}
+
+.der {
+    background: -webkit-linear-gradient(to right, rgb(0, 87, 68), rgb(119, 255, 187));
+    background: linear-gradient(to right, rgb(0, 87, 68), rgb(119, 255, 187));
+}
+
+.fil {
+    background: -webkit-linear-gradient(to right, rgb(136, 0, 226), rgb(255, 145, 231));
+    background: linear-gradient(to right, rgb(136, 0, 226), rgb(255, 145, 231));
+}
+
+.lit {
+    background: -webkit-linear-gradient(to right, rgb(27, 87, 0), rgb(166, 255, 0));
+    background: linear-gradient(to right, rgb(27, 87, 0), rgb(166, 255, 0));
+}
+
+.ocl {
+    background: -webkit-linear-gradient(to right, rgb(211, 137, 0), rgb(255, 238, 0));
+    background: linear-gradient(to right, rgb(211, 137, 0), rgb(255, 238, 0));
+}
+
+.eco {
+    background: -webkit-linear-gradient(to right, rgb(218, 80, 0), rgb(255, 165, 30));
+    background: linear-gradient(to right, rgb(218, 80, 0), rgb(255, 165, 30));
+}
+
+.mat {
+    background: -webkit-linear-gradient(to right, rgb(66, 0, 0), rgb(255, 0, 0));
+    background: linear-gradient(to right, rgb(66, 0, 0), rgb(255, 0, 0));
+}
+
+.cabecera {
+    height: 10rem;
+}
+
+@media (min-width: 768px) {
+    .cabecera {
+        height: 17rem;
+    }
+}
+
+.seccion {
+    height: 100%;
+    padding-bottom: 3rem;
+}
+
+.imag {
+    border-radius: 3rem;
+    position: fixed;
+    float: left;
+    width: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+    box-shadow: 0 0 1rem black;
+}
+
+@media (min-width: 768px) {
+    .imag {
+        width: 3rem;
+    }
+}
+
+.imag:active {
+    transform: scale(.9);
+}
+
+
+.imagen {
+    width: 100%;
+}
+
+
+header h1 {
+    text-shadow: 0 0.3rem 1rem black;
+    margin: 0;
+    padding-top: 4rem;
+    color: white;
+    text-align: center;
+
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        padding-top: 7rem;
+        font-size: 4rem;
+    }
+}
+
+
+
+/*section {
+    background: -webkit-linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    background: linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+
+}*/
+
+
+h4 {
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    font-weight: 300;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 400;
+    list-style-type: circle;
+}
+
+.parrafos {
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.parrafos p {
+    font-size: 1.1rem;
+    padding: 0.1rem auto;
+}
+
+@media (min-width: 768px) {
+    .parrafos p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parrafos p {
+        font-size: 1.3rem;
+    }
+}
+
+
+hr {
+    color: rgba(156, 156, 156, 0.452);
+}
+
+h2 {
+    padding-top: 1rem;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.vidio {
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+
+.centrar {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.vidio h2 {
+    text-align: center;
+    padding: 2rem 0 1.5rem 0;
+    margin: 0;
+    color: rgb(179, 179, 179);
+}
+
+@media (min-width:768px) {
+    .vidio h2 {
+        font-size: 2rem;
+    }
+}
+
+.video {
+    display: block;
+    margin: auto;
+    width: 20rem;
+    height: 11.5rem;
+}
+
+@media (min-width:768px) {
+    .video {
+        width: 40rem;
+        height: 23rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .video {
+        width: 70%;
+        height: 28.1rem;
+    }
+}
+
+.vidio1 {
+    width: 100%;
+    height: 11.5rem;
+}
+
+@media (min-width:768px) {
+    .vidio1 {
+        width: 100%;
+        height: 18rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .vidio1 {
+        width: 100%;
+        height: 25.1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .desk {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .mob {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+.column4 {
+    display: grid;
+    content: '';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.column2 {
+    display: grid;
+    content: '';
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+.comingsoon{
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}

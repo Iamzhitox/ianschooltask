@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    background-color: white;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+.todo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+@media (min-width: 768px) {
+    .todo {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .todo {
+        margin-left: 25%;
+        margin-right: 25%;
+
+    }
+}
+
+header {
+    height: 10rem;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 17rem;
+    }
+}
+
+.imag {
+    float: left;
+    width: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+    .imag {
+        width: 3rem;
+    }
+}
+
+
+header h1 {
+    text-shadow: 0 0.3rem 1rem black;
+    margin: 0;
+    padding-top: 4rem;
+    color: white;
+    text-align: center;
+
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        padding-top: 7rem;
+        font-size: 4rem;
+    }
+}
+
+section {
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(56, 56, 56), rgb(190, 190, 190));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+
+
+
+.parrafos {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.parrafos p {
+    font-size: 1.1rem;
+    padding: 0.1rem auto;
+}
+@media (min-width: 768px) {
+    .parrafos p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parrafos p {
+        font-size: 1.3rem;
+    }
+}
+
+
+h2 {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 1.3rem;
+}

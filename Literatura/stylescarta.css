@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 1024px) {
+    body{
+        background-color: rgb(238, 238, 238);
+    }
+}
+
+header{
+    background-image: url(carta.jpg);
+    height: 15rem;
+    background-size: cover;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+@media (min-width: 768px) {
+    header{
+        height: 25rem;
+    }
+}
+@media (min-width: 1024px) {
+    header{
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 25rem;
+        background-position-y: -4rem;
+    }
+}
+
+
+.atras {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left;
+    width: 2rem;
+}
+@media (min-width: 768px) {
+    .atras {
+        width: 3rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .all{
+        background-color: white;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+.todo {padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 9rem;
+}
+
+@media (min-width: 768px) {
+    .todo {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .todo {
+        margin-left: 8%;
+        margin-right: 8%;
+
+    }
+}
+h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.parrafos {
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+
+.parrafos p {
+    font-size: 1.1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+@media (min-width: 768px) {
+    .parrafos p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parrafos p {
+        font-size: 1.3rem;
+    }
+}
