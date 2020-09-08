@@ -134,8 +134,8 @@ header h1 {
 @media (min-width: 768px) {
     .boton:hover {
         box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.500);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1.07);
+        transform: scale(1.07);
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
     }
@@ -143,7 +143,7 @@ header h1 {
 
 .boton:active {
     transition: all .2s ease;
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
 .todo a {
@@ -162,17 +162,17 @@ header h1 {
     text-shadow: 0 0 .4rem white;
 }
 
+
 .vidio {
-    box-shadow: 0 .5rem 2rem black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 3rem;
 }
 
 .vidio h2 {
     text-align: center;
-    padding: 2rem 0 1.5rem 0;
+    padding: 3rem 0 3rem 0;
     margin: 0;
-    color: rgb(179, 179, 179);
+    color: rgb(172, 172, 172);
 }
 
 @media (min-width:768px) {
@@ -181,23 +181,32 @@ header h1 {
     }
 }
 
+@media (min-width:768px) {
+    .contenedor-videos {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
 .video {
     display: block;
     margin: auto;
     width: 20rem;
     height: 11.5rem;
+    margin-bottom: 1rem;
 }
 
 @media (min-width:768px) {
     .video {
-        width: 40rem;
-        height: 23rem;
+        width: 25rem;
+        height: 15rem;
     }
 }
 
 @media (min-width:1200px) {
     .video {
-        width: 50rem;
-        height: 28.1rem;
+        width: 36rem;
+        height: 20rem;
     }
 }
