@@ -245,3 +245,16 @@ h2 {
         height: 20rem;
     }
 }
+
+.column2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.column3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.column4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
