@@ -178,19 +178,18 @@ header h1 {
 }
 
 .materias div:hover {
+    transition: .4s;
     background-color: rgb(187, 187, 187);
     color: white;
 }
 @media (min-width:1024px) {
     .materias div:hover {
-        background-color: rgb(225, 225, 225);
-        color: white;
+        background-color: rgb(228, 228, 228);
     }
-    
+
     .materias a:hover {
-        background-color: rgb(187, 187, 187);
         color: white;
-        text-shadow: 0 0 .8rem black;
+        text-shadow: 0 0 .7rem black;
     }
 }
 
@@ -240,7 +239,7 @@ header h1 {
 }
 
 .vidio {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(232, 232, 232);
     padding-bottom: 3rem;
 }
 
@@ -248,7 +247,7 @@ header h1 {
     text-align: center;
     padding: 3rem 0 3rem 0;
     margin: 0;
-    color: rgb(83, 83, 83);
+    color: rgb(155, 155, 155);
 }
 
 @media (min-width:768px) {

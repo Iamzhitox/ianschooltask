@@ -133,16 +133,16 @@ header h1 {
 
 @media (min-width: 768px) {
     .boton:hover {
-        box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.500);
-        -webkit-transform: scale(1.07);
+        box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.3);
+        -webkit-transform: scale(1.04);
         transform: scale(1.04);
-        -webkit-transition: all .3s ease;
-        transition: all .5s ease;
+        -webkit-transition: all .6s ease;
+        transition: all .6s ease;
     }
 }
 
 .boton:active {
-    transition: all .2s ease;
+    transition: all .1s ease;
     transform: scale(1);
 }
 
