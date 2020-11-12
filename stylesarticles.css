@@ -85,6 +85,11 @@ body {
     background: -webkit-linear-gradient(to right, rgb(66, 0, 0), rgb(255, 0, 0));
     background: linear-gradient(to right, rgb(66, 0, 0), rgb(255, 0, 0));
 }
+.ccp {
+    background: -webkit-linear-gradient(to right, rgb(0, 63, 82), rgb(0, 247, 255));
+    background: linear-gradient(to right, rgb(0, 63, 82), rgb(0, 247, 255));
+}
+
 
 .cabecera {
     height: 10rem;
