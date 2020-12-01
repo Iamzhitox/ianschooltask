@@ -259,14 +259,14 @@ h2 {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
     .video {
         width: 36rem;
         height: 20rem;
     }
 }
 
-.imagen2 {
+.parrafos .imagen2 {
     display: block;
     margin: auto;
     width: 20rem;
@@ -275,14 +275,14 @@ h2 {
 }
 
 @media (min-width:768px) {
-    .imagen2 {
+    .parrafos .imagen2 {
         width: 25rem;
         height: 18rem;
     }
 }
 
-@media (min-width:1024px) {
-    .imagen2 {
+@media (min-width:1200px) {
+    .parrafos .imagen2 {
         width: 40rem;
         height: 22rem;
     }
