@@ -338,7 +338,7 @@ h2 {
     height: 2.5rem;
     width: max-content;
     padding-right: 1rem;
-    border: 1px solid rgb(230, 230, 230);
+    border: 2px solid rgb(230, 230, 230);
     align-items: center;
     border-radius: 3rem;
     /* box-shadow: 0 0 2rem rgb(199, 199, 199); */
