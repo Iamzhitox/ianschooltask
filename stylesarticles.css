@@ -217,6 +217,12 @@ h2 {
     font-weight: 300;
     font-size: 1.3rem;
 }
+@media (min-width:1200px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
 
 .vidio {
     background-color: rgb(255, 255, 255);
@@ -269,8 +275,7 @@ h2 {
 .parrafos .imagen2 {
     display: block;
     margin: auto;
-    width: 20rem;
-    height: 11.5rem;
+    width: 100%;
     margin-bottom: 1rem;
 }
 
@@ -326,3 +331,47 @@ h2 {
     }
 }
 
+.person {
+    display: flex;
+    padding: 0;
+    color:rgb(160, 160, 160);
+    height: 2.5rem;
+    width: max-content;
+    padding-right: 1rem;
+    border: 1px solid rgb(230, 230, 230);
+    align-items: center;
+    border-radius: 3rem;
+    /* box-shadow: 0 0 2rem rgb(199, 199, 199); */
+
+}
+
+@media (min-width:1024px) {
+    .person {
+        margin-top: .5rem;
+        margin-left: 1rem;
+    }
+    .person:hover {
+        scale: 1.1;
+        transition: all .5s;
+        box-shadow: 0 0 1rem rgb(218, 218, 218);
+        
+    }
+}
+.person img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+.person .h3 {
+    font-size: .8rem;
+    padding: 1rem 0;
+    
+}
+
+@media (min-width:1024px) {
+    .tyn {
+        display: flex;
+        justify-content: space-between;
+    }
+}
