@@ -22,13 +22,12 @@ header {
 
 @media (min-width:768px) {
     header {
-        background-position-y: -5%;
         background-size: 100%;
         height: 25rem;
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
     header {
         height: 27rem;
         background-position-y: 130%;
@@ -98,6 +97,8 @@ header h1 {
 
 .wave {
     padding-top: 0rem;
+    position: relative;
+    bottom: -2px;
 }
 
 @media (min-width:768px) {
@@ -109,6 +110,7 @@ header h1 {
 @media (min-width:1024px) {
     .wave {
         padding-top: 5.9rem;
+        bottom: 0;
     }
 }
 
@@ -184,7 +186,7 @@ header h1 {
 }
 @media (min-width:1024px) {
     .materias div:hover {
-        background-color: rgb(228, 228, 228);
+        background-color: rgb(237, 237, 237);
     }
 
     .materias a:hover {
