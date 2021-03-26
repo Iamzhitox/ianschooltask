@@ -98,7 +98,7 @@ header h1 {
 .wave {
     padding-top: 0rem;
     position: relative;
-    bottom: -2px;
+    bottom: -4px;
 }
 
 @media (min-width:768px) {
